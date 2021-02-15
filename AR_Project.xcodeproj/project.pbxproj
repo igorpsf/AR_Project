@@ -13,6 +13,12 @@
 		7882ACAB25C6459C009CF147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882ACA925C6459C009CF147 /* Main.storyboard */; };
 		7882ACAD25C6459E009CF147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7882ACAC25C6459E009CF147 /* Assets.xcassets */; };
 		7882ACB025C6459E009CF147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882ACAE25C6459E009CF147 /* LaunchScreen.storyboard */; };
+		7891270825DA14A40041CD92 /* biplane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270225DA14A30041CD92 /* biplane.jpg */; };
+		7891270925DA14A40041CD92 /* retrotv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270325DA14A40041CD92 /* retrotv.jpg */; };
+		7891270A25DA14A40041CD92 /* drummertoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270425DA14A40041CD92 /* drummertoy.jpg */; };
+		7891270B25DA14A40041CD92 /* stratocaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270525DA14A40041CD92 /* stratocaster.jpg */; };
+		7891270C25DA14A40041CD92 /* toycar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270625DA14A40041CD92 /* toycar.jpg */; };
+		7891270D25DA14A40041CD92 /* vintagerobot2k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7891270725DA14A40041CD92 /* vintagerobot2k.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		7882ACAC25C6459E009CF147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7882ACAF25C6459E009CF147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7882ACB125C6459E009CF147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7891270225DA14A30041CD92 /* biplane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biplane.jpg; sourceTree = "<group>"; };
+		7891270325DA14A40041CD92 /* retrotv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = retrotv.jpg; sourceTree = "<group>"; };
+		7891270425DA14A40041CD92 /* drummertoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drummertoy.jpg; sourceTree = "<group>"; };
+		7891270525DA14A40041CD92 /* stratocaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stratocaster.jpg; sourceTree = "<group>"; };
+		7891270625DA14A40041CD92 /* toycar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toycar.jpg; sourceTree = "<group>"; };
+		7891270725DA14A40041CD92 /* vintagerobot2k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vintagerobot2k.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		7882ACA225C6459C009CF147 /* AR_Project */ = {
 			isa = PBXGroup;
 			children = (
+				7891270125DA14900041CD92 /* Images */,
 				7882ACA325C6459C009CF147 /* AppDelegate.swift */,
 				7882ACA525C6459C009CF147 /* SceneDelegate.swift */,
 				7882ACA725C6459C009CF147 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				7882ACB125C6459E009CF147 /* Info.plist */,
 			);
 			path = AR_Project;
+			sourceTree = "<group>";
+		};
+		7891270125DA14900041CD92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7891270225DA14A30041CD92 /* biplane.jpg */,
+				7891270425DA14A40041CD92 /* drummertoy.jpg */,
+				7891270325DA14A40041CD92 /* retrotv.jpg */,
+				7891270525DA14A40041CD92 /* stratocaster.jpg */,
+				7891270625DA14A40041CD92 /* toycar.jpg */,
+				7891270725DA14A40041CD92 /* vintagerobot2k.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7882ACB025C6459E009CF147 /* LaunchScreen.storyboard in Resources */,
+				7891270825DA14A40041CD92 /* biplane.jpg in Resources */,
 				7882ACAD25C6459E009CF147 /* Assets.xcassets in Resources */,
+				7891270C25DA14A40041CD92 /* toycar.jpg in Resources */,
 				7882ACAB25C6459C009CF147 /* Main.storyboard in Resources */,
+				7891270925DA14A40041CD92 /* retrotv.jpg in Resources */,
+				7891270B25DA14A40041CD92 /* stratocaster.jpg in Resources */,
+				7891270A25DA14A40041CD92 /* drummertoy.jpg in Resources */,
+				7891270D25DA14A40041CD92 /* vintagerobot2k.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
